@@ -1,1 +1,39 @@
 
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBTI 在线性格测试</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>MBTI 职业性格测试</h1>
+            <p class="description">本测试旨在帮助你更好地了解自己的性格倾向。请根据你的真实想法，选择最符合你的描述。</p>
+        </header>
+        
+        <div id="quiz-container">
+            <!-- 问题将由 JavaScript 动态加载到这里 -->
+        </div>
+
+        <button id="submit-btn">查看我的结果</button>
+
+        <div id="result-container" class="hidden">
+            <h2>你的测试结果是：</h2>
+            <div id="result-card">
+                <h3 id="result-type"></h3>
+                <p id="result-title"></p>
+                <p id="result-description"></p>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>一个简单的在线MBTI测试项目</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
